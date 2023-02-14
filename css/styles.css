@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* -----------INDEX------------- */
+
+@media screen and (min-width: 200px) and (max-width: 480px){
+.body-index {
+    background-image: url(/assets/img/index.webp);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-y: center;
+    background-position-x: center;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.icono-menu {
+    position: relative;
+    z-index: 10;
+}
+
+.icono-menu img {
+    vertical-align:top;
+    width: 4em;
+    cursor: pointer;
+}
+
+.nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    padding-left: 1em;
+}
+
+.enlaces-mobile {
+    background-color: rgba(42, 42, 42, .9);
+    box-shadow: 1px 5px 10px 2px #000;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 8em;
+    left: 0;
+    transition: all .5s ease;
+}
+
+.active {
+    transform: translate(-600px);
+}
+
+.opacity {
+    background-color: rgba(0, 0, 0, .4);
+    transition: all .5s ease;
+}
+
+ul {
+    text-align: center;
+}
+ul li {
+    list-style: none;
+    display: block;
+    padding: 1em;
+    background-color: rgb(255,255,0);
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: rgb(250, 225, 0);
+    outline: 3px solid rgb(220, 220, 0);
+
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.logo-mobile img {
+    width: 10em;
+}
+
+.main {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    user-select: none;
+}
+
+.titulo h1 {
+    color: rgb(255, 255, 0);
+    font-weight: 300;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    z-index: -10;
+    user-select: none;
+}
+.compra-tickets {
+    width: 100%;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.compra-tickets img {
+    width: 18em;
+}
+
+.compra-tickets h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.compra-tickets a {
+    text-decoration: none;
+    background-color: rgb(255, 255, 0);
+    padding: 1em 2em;
+    border-radius: 30px;
+    font-weight: 900;
+}
+.compra-tickets a h2 {
+    font-family: 'Roboto', monospace;
+    font-size: 1.5em;
+    color: #000;
+    font-weight: 1200;
+}
+}
+
+
+
+/* ---------PROXIMAS FECHAS --------------- */
+
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    .body-PF {
+        background-image: url(/assets/img/proximas-fechas.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .main-PF .titulo-PF {
+        color: rgb(255, 255, 0);
+        font-weight: 300;
+        font-size: 1.2rem;
+        font-weight: 100;
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        user-select: none;
+        margin-top: 2em;
+    }
+
+    .proximas-fechas ul {
+        margin-top: 7em;
+        padding: 0 1.5em;
+    }
+
+    .proximas-fechas ul li a {
+        font-weight: bold;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .flecha {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .flecha img {
+        width: 8em;
+        padding-top: 20px;
+    }
+}
+
+/* -----------PUNTOS DE VENTA------------- */
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    .body-PDV {
+        background-image: url(/assets/img/background-extra.webp);
+    }
+
+    .main-PDV {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main-PDV .titulo-PDV {
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+
+/* -----------GALERÍA------------- */
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    .body-galeria {
+        background-image: url(/assets/img/background-extra.webp);
+    }
+
+    .main-galeria {
+        width: 100%;
+        height: 100%;
+        margin-top: 2em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-galeria .galeria {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+        grid-gap: 3em
+    }
+
+    .box {
+        background-color: rgba(255, 255, 0, .5);
+        width: 130px;
+        height: 130px;
+    }
+}
+
+/* -----------CONTACTO------------- */
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    .body-contacto {
+        background-image: url(/assets/img/background-extra.webp);
+    }
+    .main-contacto {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulo-contacto {
+        color: #fff;
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    .body-condesa {
+        background-image: url(/assets/img/index.webp);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position-y: center;
+        background-position-x: center;
+        width: 100%;
+    }
+
+    .main-condesa {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .img-container {
+        padding: 80px 0;
+    }
+    .img-container img {
+        width: 20em;
+    }
+
+    p {
+        color: rgb(255, 255, 0);
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding-top: 30px;
+    }
+
+    .select-container {
+        padding: 30px 0;
+    }
+    
+    .buy-container {
+        display: flex;
+    }
+    .buy-container img {
+        width: 150px;
+        background-color: rgba(170, 170, 170, .8);
+        border-radius: 10px;
+        margin: .5em;
+        padding: 1em;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    .body-garden {
+        background-image: url(/assets/img/index.webp);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position-y: center;
+        background-position-x: center;
+        width: 100%;
+    }
+
+    .main-garden {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .img-container {
+        padding: 80px 0;
+    }
+    .img-container img {
+        width: 20em;
+    }
+
+    p {
+        color: rgb(255, 255, 0);
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding-top: 30px;
+    }
+
+    .select-container {
+        padding: 30px 0;
+    }
+    
+    .buy-container {
+        display: flex;
+    }
+    .buy-container img {
+        width: 150px;
+        background-color: rgba(170, 170, 170, .8);
+        border-radius: 10px;
+        margin: .5em;
+        padding: 1em;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    .body-isla {
+        background-image: url(/assets/img/index.webp);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position-y: center;
+        background-position-x: center;
+        width: 100%;
+    }
+
+    .main-isla {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .img-container {
+        padding: 80px 0;
+    }
+    .img-container img {
+        width: 20em;
+    }
+
+    p {
+        color: rgb(255, 255, 0);
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding-top: 30px;
+    }
+
+    .select-container {
+        padding: 30px 0;
+    }
+    
+    .buy-container {
+        display: flex;
+    }
+    .buy-container img {
+        width: 150px;
+        background-color: rgba(170, 170, 170, .8);
+        border-radius: 10px;
+        margin: .5em;
+        padding: 1em;
+    }
+}
