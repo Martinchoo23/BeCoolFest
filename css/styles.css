@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 200px) and (max-width: 480px){
 .body-index {
-    background-image: url(/assets/img/index.webp);
+    background-image: url(/assets/img/index.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position-y: center;
@@ -156,9 +156,10 @@ ul li a{
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
     .body-PF {
-        background-image: url(/assets/img/proximas-fechas.webp);
+        background-image: url(/assets/img/background-extra-1.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 300%;
+        background-position: center;
 
     }
 
@@ -198,8 +199,10 @@ ul li a{
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
     .body-PDV {
-        background-image: url(/assets/img/background-extra.webp);
-    }
+        background-image: url(/assets/img/background-extra.jpg);
+        background-size: 300%;
+        background-repeat: no-repeat;
+}
 
     .main-PDV {
         display: flex;
@@ -218,7 +221,10 @@ ul li a{
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
     .body-galeria {
-        background-image: url(/assets/img/background-extra.webp);
+        background-image: url(/assets/img/background-extra.jpg);
+        background-size: 300%;
+        background-repeat: no-repeat;
+
     }
 
     .main-galeria {
@@ -247,7 +253,10 @@ ul li a{
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
     .body-contacto {
-        background-image: url(/assets/img/background-extra.webp);
+        background-image: url(/assets/img/background-extra.jpg);
+        background-size: 300%;
+        background-repeat: no-repeat;
+
     }
     .main-contacto {
         width: 100%;
@@ -265,7 +274,7 @@ ul li a{
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
     .body-condesa {
-        background-image: url(/assets/img/index.webp);
+        background-image: url(/assets/img/index.jpg);
         background-repeat: no-repeat;
         background-size: auto;
         background-position-y: center;
@@ -313,7 +322,7 @@ ul li a{
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
     .body-garden {
-        background-image: url(/assets/img/index.webp);
+        background-image: url(/assets/img/index.jpg);
         background-repeat: no-repeat;
         background-size: auto;
         background-position-y: center;
@@ -361,7 +370,7 @@ ul li a{
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
     .body-isla {
-        background-image: url(/assets/img/index.webp);
+        background-image: url(/assets/img/index.jpg);
         background-repeat: no-repeat;
         background-size: auto;
         background-position-y: center;
