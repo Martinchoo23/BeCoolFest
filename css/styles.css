@@ -7,7 +7,7 @@
 
 /* -----------INDEX------------- */
 
-@media screen and (min-width: 200px) and (max-width: 480px){
+@media screen and (min-width: 200px) and (max-width: 800px){
 .body-index {
     background-image: url(../assets/img/index.jpg);
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@
 }
 
 .active {
-    transform: translate(-600px);
+    transform: translate(-900px);
 }
 
 .opacity {
@@ -106,7 +106,7 @@ ul li a{
 }
 
 .titulo h1 {
-    color: rgb(255, 255, 0);
+    color: #F0D203;
     font-weight: 300;
     font-size: 1.8rem;
     font-weight: 500;
@@ -136,7 +136,7 @@ ul li a{
 
 .compra-tickets a {
     text-decoration: none;
-    background-color: rgb(255, 255, 0);
+    background-color: #F0D203;
     padding: 1em 2em;
     border-radius: 30px;
     font-weight: 900;
@@ -154,7 +154,7 @@ ul li a{
 /* ---------PROXIMAS FECHAS --------------- */
 
 
-@media screen and (min-width: 200px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 800px) {
     .body-PF {
         background-image: url(../assets/img/background-extra-1.jpg);
         background-repeat: no-repeat;
@@ -164,7 +164,7 @@ ul li a{
     }
 
     .main-PF .titulo-PF {
-        color: rgb(255, 255, 0);
+        color: #F0D203;
         font-weight: 300;
         font-size: 1.2rem;
         font-weight: 100;
@@ -197,7 +197,7 @@ ul li a{
 
 /* -----------PUNTOS DE VENTA------------- */
 
-@media screen and (min-width: 200px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 800px) {
     .body-PDV {
         background-image: url(../assets/img/background-extra.jpg);
         background-size: 300%;
@@ -219,7 +219,7 @@ ul li a{
 
 /* -----------GALERÍA------------- */
 
-@media screen and (min-width: 200px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 800px) {
     .body-galeria {
         background-image: url(../assets/img/background-extra.jpg);
         background-size: 300%;
@@ -251,7 +251,7 @@ ul li a{
 
 /* -----------CONTACTO------------- */
 
-@media screen and (min-width: 200px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 800px) {
     .body-contacto {
         background-image: url(../assets/img/background-extra.jpg);
         background-size: 300%;
@@ -272,7 +272,7 @@ ul li a{
     }
 }
 
-@media screen and (min-width: 200px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 800px) {
     .body-condesa {
         background-image: url(../assets/img/index.jpg);
         background-repeat: no-repeat;
@@ -289,38 +289,9 @@ ul li a{
         justify-content: space-evenly;
         align-items: center;
     }
-
-    .img-container {
-        padding: 80px 0;
-    }
-    .img-container img {
-        width: 20em;
-    }
-
-    p {
-        color: rgb(255, 255, 0);
-        font-size: 1.2rem;
-        font-weight: 300;
-        padding-top: 30px;
-    }
-
-    .select-container {
-        padding: 30px 0;
-    }
-    
-    .buy-container {
-        display: flex;
-    }
-    .buy-container img {
-        width: 150px;
-        background-color: rgba(170, 170, 170, .8);
-        border-radius: 10px;
-        margin: .5em;
-        padding: 1em;
-    }
 }
 
-@media screen and (min-width: 200px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 800px) {
     .body-garden {
         background-image: url(../assets/img/index.jpg);
         background-repeat: no-repeat;
@@ -337,38 +308,9 @@ ul li a{
         justify-content: space-evenly;
         align-items: center;
     }
-
-    .img-container {
-        padding: 80px 0;
-    }
-    .img-container img {
-        width: 20em;
-    }
-
-    p {
-        color: rgb(255, 255, 0);
-        font-size: 1.2rem;
-        font-weight: 300;
-        padding-top: 30px;
-    }
-
-    .select-container {
-        padding: 30px 0;
-    }
-    
-    .buy-container {
-        display: flex;
-    }
-    .buy-container img {
-        width: 150px;
-        background-color: rgba(170, 170, 170, .8);
-        border-radius: 10px;
-        margin: .5em;
-        padding: 1em;
-    }
 }
 
-@media screen and (min-width: 200px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 800px) {
     .body-isla {
         background-image: url(../assets/img/index.jpg);
         background-repeat: no-repeat;
@@ -386,32 +328,23 @@ ul li a{
         align-items: center;
     }
 
-    .img-container {
-        padding: 80px 0;
-    }
     .img-container img {
         width: 20em;
     }
 
     p {
-        color: rgb(255, 255, 0);
+        color: #F0D203;
         font-size: 1.2rem;
         font-weight: 300;
-        padding-top: 30px;
+        padding: 30px 0;
     }
 
     .select-container {
         padding: 30px 0;
     }
-    
-    .buy-container {
-        display: flex;
-    }
+
     .buy-container img {
-        width: 150px;
-        background-color: rgba(170, 170, 170, .8);
-        border-radius: 10px;
-        margin: .5em;
-        padding: 1em;
+        width: 8em;
+        padding: 10px;
     }
 }
