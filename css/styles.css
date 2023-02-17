@@ -274,13 +274,40 @@ ul li a{
         background-position-x: center;
         width: 100%;
     }
-
     .main-condesa {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    .main-condesa-1 a img {
+        width: 4em;
+    }
+
+    .main-condesa-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .main-condesa-2 .img-container img {
+        width: 20em;
+        padding-bottom: 2em;
+    }
+    .main-condesa-2  .buy-container img {
+        width: 5em;
+        padding-top: 2em;
+    }
+    .titulos-condesa .p1 {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    .titulos-condesa .p2 {
+        color:#F0D203;
+        font-size: 1.5rem;
     }
 }
 
@@ -293,13 +320,40 @@ ul li a{
         background-position-x: center;
         width: 100%;
     }
-
     .main-garden {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    .main-garden-1 a img {
+        width: 4em;
+    }
+
+    .main-garden-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .main-garden-2 .img-container img {
+        width: 20em;
+        padding-bottom: 2em;
+    }
+    .main-garden-2  .buy-container img {
+        width: 5em;
+        padding-top: 2em;
+    }
+    .titulos-garden .p1 {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    .titulos-garden .p2 {
+        color:#F0D203;
+        font-size: 1.5rem;
     }
 }
 
@@ -312,32 +366,420 @@ ul li a{
         background-position-x: center;
         width: 100%;
     }
-
     .main-isla {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
     }
 
-    .img-container img {
+    .main-isla-1 a img {
+        width: 4em;
+    }
+
+    .main-isla-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .main-isla-2 .img-container img {
         width: 20em;
+        padding-bottom: 2em;
+    }
+    .main-isla-2  .buy-container img {
+        width: 5em;
+        padding-top: 2em;
+    }
+    .titulos-isla .p1 {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    .titulos-isla .p2 {
+        color:#F0D203;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 801px) {
+    .body-index {
+        background-image: url(../assets/img/index.jpg);
+        background-size: cover;
+        background-position-y: -200px;
+        background-repeat: no-repeat;
     }
 
-    p {
+    .nav-mobile {
+        display: none;
+    }
+    .nav-desktop {
+        width: 100%;
+        height: 7em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ul-desktop {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        margin-left: 1em;
+    }
+
+    .ul-desktop li {
+        list-style: none;
+        padding: 0 1em;
+    }
+
+    .ul-desktop li a {
+        text-decoration: none;
         color: #F0D203;
-        font-size: 1.2rem;
+    }
+
+    .logo-desktop {
+        height: 7em;
+        display: flex;
+        align-items: center;
+    }
+    .logo-desktop img {
+        width: 10em;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .titulo h1 {
+        font-size: 3rem;
         font-weight: 300;
-        padding: 30px 0;
+        color: #F0D203;
+        
     }
 
-    .select-container {
-        padding: 30px 0;
+    .compra-tickets {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .buy-container img {
+    .compra-tickets img {
+        width: 25em;
+    }
+    
+    .compra-tickets h2 {
+        color: #fff;
+        font-weight: 900;
+    }
+
+    .compra-tickets a {
+        margin-top: 3em;
+        text-decoration: none;
+        background-color: #F0D203;
+        padding: 1em;
+    }
+
+    .compra-tickets a h2 {
+        color: #000;
+        font-weight: 1200;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .body-PF {
+        background-image: url(../assets/img/background-extra-1a.jpg);
+        background-size: cover;
+        background-position-y: -200px;
+        background-repeat: no-repeat;
+    }
+    
+    .flecha {
+        display: none;
+    }
+
+    .main-PF {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .titulo-PF h1{
+        margin-top: 1em;
+        font-size: 2.5rem;
+        color: #F0D203;
+    }
+
+    .proximas-fechas {
+        margin-top: 3em;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .proximas-fechas ul {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .proximas-fechas ul li {
+        list-style: none;
+        background-color:#F0D203;
+        margin: 1em 0;
+        padding: 1.5em 4em;
+        text-align: center;
+    }
+
+    .proximas-fechas ul li a{
+        color: #000;
+        text-align: center;
+        padding: 2em;
+        font-size: 1.2rem;
+        text-decoration: none;
+        font-weight: bold;
+        user-select: none;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .body-PDV {
+        background-image: url(../assets/img/background-extraa.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-PDV {
+        width: 100%;
+        height: 100%;
+    }
+
+    .titulo-PDV {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-PDV h1 {
+        color: #fff;
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (min-width: 801px) {
+    .body-galeria {
+        background-image: url(../assets/img/background-extraa.jpg);
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+    }
+
+    .main-galeria {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center
+    }
+
+    .main-galeria .galeria {
+        margin-top: 1em;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 2em;
+    }
+
+    .box {
+        background-color: rgba(255, 255, 0, .5);
+        width: 250px;
+        height: 220px;
+        
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .body-contacto {
+        background-image: url(../assets/img/background-extraa.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-contacto {
+        width: 100%;
+        height: 100%;
+    }
+
+    .titulo-contacto {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-contacto h1 {
+        color: #fff;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .body-condesa {
+        background-image: url(../assets/img/index.jpg);
+        background-size: cover;
+        background-position-y: -200px;
+        background-repeat: no-repeat;
+    }
+
+    .main-condesa {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-condesa-1 a img{
         width: 8em;
-        padding: 10px;
+        padding: 1em;
+    }
+    .main-condesa-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        transform: translateX(-3em);
+    }
+
+    .img-container img {
+        width: 25em;
+    }
+
+    .titulos-condesa {
+        text-align: center;
+        padding: 2em 0;
+    }
+    .titulos-condesa .p1 {
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .titulos-condesa .p2 {
+        color:#F0D203;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .buy-container img {
+        width: 7em;
+        margin-top: 1em;
+    }
+
+}
+
+@media screen and (min-width: 801px) {
+    .body-garden {
+        background-image: url(../assets/img/index.jpg);
+        background-size: cover;
+        background-position-y: -200px;
+        background-repeat: no-repeat;
+    }
+    .main-garden {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-garden-1 a img{
+        width: 8em;
+        padding: 1em;
+    }
+    .main-garden-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        transform: translateX(-3em);
+    }
+
+    .titulos-garden {
+        text-align: center;
+        padding: 2em 0;
+    }
+    .titulos-garden .p1 {
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .titulos-garden .p2 {
+        color:#F0D203;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .body-isla {
+        background-image: url(../assets/img/index.jpg);
+        background-size: cover;
+        background-position-y: -200px;
+        background-repeat: no-repeat;
+    }
+    .main-isla {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-isla-1 a img{
+        width: 8em;
+        padding: 1em;
+    }
+    .main-isla-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        transform: translateX(-3em);
+    }
+
+    .titulos-isla {
+        text-align: center;
+        padding: 2em 0;
+    }
+    .titulos-isla .p1 {
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .titulos-isla .p2 {
+        color:#F0D203;
+        font-size: 2.5rem;
+        font-weight: bold;
     }
 }
